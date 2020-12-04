@@ -77,8 +77,20 @@ LABEL <key>=<value> <key>=<value> <key>=<value> ...
 ```
 
 ### STOPSIGNAL
+The STOPSIGNAL instruction sets the system call signal that will be sent to container to exit.
 ### USER
+The USER instruction sets the user name (or UID) and optionally the user group (or GID) to use when running the image and for any RUN, CMD and ENTRYPOINT.
+
+Form:
+```
+USER <user>[:<group>]
+or 
+USER <UID>[:<GID>]
+```
 ### VOLUME
+The VOLUME instruction creates a mount point with the specified name and marks it as holding externally mounted volumes from native host or other container.
+
+The ```docker run``` command initializes the newly created volume with any data that exists at the specified location within the base image.
 ### WORKDIR
 ### RUN
 ### CMD
