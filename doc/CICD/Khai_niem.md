@@ -6,7 +6,7 @@
     - Ngay khi commit xảy ra, CI server phát hiện repo có thay đổi nên nó nhậ code mới nhất từ repo và sau đó build, chạy unit và test
     - CI server sẽ tạo các feedback và gửi để member của project
     - CI lại tiếp tục chờ thay đổi ở repo
-![](images/CI-follow.png)
+- ![](images/CI-follow.png)
 ## CD (Continuous Delivery)
 - CD (Continuous Delivery): Mở rộng của CI, cho phép triển khai các thay đổi lên môi trường test hoặc staging. Continuous Delivery là cách triển khai thủ công lên môi trường test hoặc staging, nghĩa là khi nhận được trigger thay đổi thì noti cho team để triển khai thủ công.
 - Continuous Delivery được thực hiện bằng cách sử dụng Deployment Pipeline
